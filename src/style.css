@@ -1,0 +1,64 @@
+body{
+    background-color: #0e0e0e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF
+}
+
+.de{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 393px;
+    aspect-ratio: auto 393 / 393;
+    height: 393px;
+    margin-bottom: 30px;
+}
+
+#songname{
+    color:#FFFFFF;
+    font-size: 2.5rem;
+}
+
+#artist{
+    font-size: 1 rem;
+    margin: 20px;
+}
+
+.Preview{
+    background-color: #0e0e0e;
+    color:#FFFFFF;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 25px;
+    cursor: pointer; 
+    border: 2px solid #FFFFFF ;
+    transition: opacity 0.3s ease;
+}
+
+.Preview:hover{
+    opacity: 0.8;
+    background-color: #0e0e0e;
+}
